@@ -26,7 +26,7 @@ To install from Pypi:
 
 ```bash
 pip install miniresponder
-miniresponder -h
+miniresponder -h```
 
 
 Or clone the repo and install in a virtualenv
@@ -36,4 +36,4 @@ git clone https://github.com/jrmdev/miniresponder && cd miniresponder
 python3 -m venv env
 . env/bin/activate
 pip install .
-miniresponder -h
+miniresponder -h```
