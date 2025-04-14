@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniresponder"
+version = "0.1.0"
+description = "A stripped-down Responder fork"
+readme = "README.md"
+authors = [{ name = "jrmdev", email = "jrmdev@github.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+]
+keywords = ["network", "responder", "poisoner", "security"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.scripts]
+miniresponder = "miniresponder:miniresponder.main"
+
+[tool.setuptools]
+packages = ["miniresponder", "miniresponder.poisoners", "miniresponder.servers"]
+
