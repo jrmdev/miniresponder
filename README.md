@@ -22,6 +22,12 @@ This is meant to complement Responder for those who want a simple alternative, n
 
 ## Installation
 
+To run directly via uv:
+
+```bash
+uvx miniresponder -h
+```
+
 To install from Pypi:
 
 ```bash
